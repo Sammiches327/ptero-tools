@@ -13,6 +13,7 @@ const prompt = require("prompt-sync")();
 
 const connection_url = prompt('Connection URL (plain, without http or https): ');
 const api_key = prompt('API Key: ');
+const page_num = prompt('Server Page Number: ');
 
 var ops1 = {
     'method': 'GET',
@@ -27,7 +28,7 @@ var ops1 = {
 var ops2 = {
     'method': 'GET',
     'hostname': `${connection_url}`,
-    'path': '/api/application/servers',
+    'path': `/api/application/servers?page=${page_num}`,
     'headers': {
       'Authorization': `Bearer ${api_key}`
     },
