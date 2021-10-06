@@ -7,7 +7,7 @@ In the panel, create an API key and ensure R/W is enabled for **nodes** and **se
     $ npm install
     $ node index.js
 Script will ask for the dashboard URL...**ensure this doesn't have http or https before it**.
-Enter API key create above.
+Enter API key created above.
 ### Future Goals
  - Work with pagination in server results
  - Clean up code
