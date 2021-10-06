@@ -1,7 +1,6 @@
 {
   "name": "ptero-tools",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,5 +10,14 @@
   "dependencies": {
     "https": "^1.0.0",
     "prompt-sync": "^4.2.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sammiches327/ptero-tools.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Sammiches327/ptero-tools/issues"
+  },
+  "homepage": "https://github.com/Sammiches327/ptero-tools#readme",
+  "description": ""
 }
